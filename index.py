@@ -4,7 +4,7 @@ def run_quickstart():
     import googleapiclient.discovery
 
     # Your Google Cloud Platform project ID
-    project_id = 'hcl-nazerpadilla'
+    project_id = 'PROJECT_ID'
 
     # Lists keys in the "global" location.
     location = 'global'
