@@ -43,4 +43,3 @@ google.auth.getApplicationDefault((err, authClient) => {
     }
   });
 });
-
