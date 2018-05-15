@@ -32,4 +32,3 @@ git push <REMOTE_NAME> <BRANCH_NAME>
 
 git pull <REMOTE_NAME> <BRANCH_NAME>
 - Fetch and download content from a repository and immediately update the local repository to match that content
-
