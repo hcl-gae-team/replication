@@ -1,0 +1,9 @@
+{
+  "config": {
+      "sampleRateHertz": 8000,
+      "languageCode": "en-US"
+  },
+  "audio": {
+      "uri":"gs://{BUCKET_NAME}/sample-five.wav"
+  }
+}
