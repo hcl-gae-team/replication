@@ -38,7 +38,9 @@ A skeleton application for Google Cloud Endpoints in Java.
 
 1. Get the client library with
 
-   $ mvn appengine:endpoints_get_client_lib / $ mvn endpoints-framework:clientLibs
+   $ mvn appengine:endpoints_get_client_lib 
+   OR 
+   $ mvn endpoints-framework:clientLibs
 
    It will generate a client library jar file under the
    `target/endpoints-client-libs/<api-name>/target` directory of your
@@ -48,6 +50,8 @@ A skeleton application for Google Cloud Endpoints in Java.
 1. Deploy your application to Google App Engine with
 
    $ mvn appengine:update
+   OR
+   $ mvn appengine:deploy
 
 [1]: https://developers.google.com/appengine
 [2]: http://java.com/en/
