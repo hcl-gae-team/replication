@@ -32,13 +32,13 @@ A skeleton application for Google Cloud Endpoints in Java.
        in the [APIs Console][4] to your client of choice (web, Android,
        iOS).
 
-1. Run the application with `mvn appengine:devserver`, and ensure it's
+1. Run the application with `mvn appengine:devserver`, or 'mvn appengine:start' and ensure it's
    running by visiting your local server's api explorer's address (by
    default [localhost:8080/_ah/api/explorer][5].)
 
 1. Get the client library with
 
-   $ mvnappengine:endpoints_get_client_lib
+   $ mvn appengine:endpoints_get_client_lib / $ mvn endpoints-framework:clientLibs
 
    It will generate a client library jar file under the
    `target/endpoints-client-libs/<api-name>/target` directory of your
