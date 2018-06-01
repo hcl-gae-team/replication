@@ -47,13 +47,8 @@ public class ModulesAPI {
 			Set<String> versions = modulesService.getVersions(module);
 			for (String version : versions) {
 				int instances = 0;
-				
-				try {
-					instances = modulesService.getNumInstances(module, version);
-				} catch (ModulesException exception) {
-					log.info("Exception: " + exception.getMessage());
-				} 
-				
+				//exception thrown here
+				instances = modulesService.getNumInstances(module, version);
 				log.info(module + ":" + version + ":" + instances);
 				result.put(module, version);
 			}
